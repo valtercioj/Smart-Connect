@@ -1,0 +1,147 @@
+09/05/2024 19:03:14.314 [[32minfo[39m]: host name read successfully
+09/05/2024 19:03:15.154 [[32minfo[39m]: host name read successfully
+09/05/2024 19:03:15.383 [[32minfo[39m]: host name read successfully
+09/05/2024 19:03:15.573 [[32minfo[39m]: host name read successfully
+09/05/2024 19:03:15.743 [[32minfo[39m]: host name read successfully
+09/05/2024 19:03:15.935 [[32minfo[39m]: host name read successfully
+09/05/2024 19:03:16.124 [[32minfo[39m]: host name read successfully
+09/05/2024 19:03:16.361 [[32minfo[39m]: host name read successfully
+09/05/2024 19:04:00.815 [[32minfo[39m]: host name read successfully
+09/05/2024 19:04:01.528 [[32minfo[39m]: host name read successfully
+09/05/2024 19:05:47.922 [[32minfo[39m]: host name read successfully
+09/05/2024 19:05:48.965 [[32minfo[39m]: host name read successfully
+09/05/2024 19:05:49.805 [[32minfo[39m]: host name read successfully
+09/05/2024 19:05:50.663 [[32minfo[39m]: host name read successfully
+09/05/2024 19:06:29.401 [[32minfo[39m]: host name read successfully
+09/05/2024 19:06:30.419 [[32minfo[39m]: host name read successfully
+09/05/2024 19:06:31.727 [[32minfo[39m]: host name read successfully
+09/05/2024 19:06:34.976 [[32minfo[39m]: host name read successfully
+09/05/2024 19:06:36.285 [[32minfo[39m]: host name read successfully
+09/05/2024 19:06:52.991 [[32minfo[39m]: successfully found clients
+09/05/2024 19:06:52.993 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Do not know how to serialize a BigInt
+09/05/2024 19:06:53.531 [[32minfo[39m]: successfully found clients
+09/05/2024 19:06:53.531 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Do not know how to serialize a BigInt
+09/05/2024 19:06:53.818 [[32minfo[39m]: successfully found clients
+09/05/2024 19:06:53.818 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Do not know how to serialize a BigInt
+09/05/2024 19:06:54.064 [[32minfo[39m]: successfully found clients
+09/05/2024 19:06:54.064 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Do not know how to serialize a BigInt
+09/05/2024 19:06:54.291 [[32minfo[39m]: successfully found clients
+09/05/2024 19:06:54.291 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Do not know how to serialize a BigInt
+09/05/2024 19:06:54.545 [[32minfo[39m]: successfully found clients
+09/05/2024 19:06:54.546 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Do not know how to serialize a BigInt
+09/05/2024 19:06:55.748 [[32minfo[39m]: successfully found clients
+09/05/2024 19:06:55.749 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Do not know how to serialize a BigInt
+09/05/2024 19:06:56.083 [[32minfo[39m]: successfully found clients
+09/05/2024 19:06:56.083 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Do not know how to serialize a BigInt
+09/05/2024 19:06:56.318 [[32minfo[39m]: successfully found clients
+09/05/2024 19:06:56.319 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Do not know how to serialize a BigInt
+09/05/2024 19:06:56.553 [[32minfo[39m]: successfully found clients
+09/05/2024 19:06:56.554 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Do not know how to serialize a BigInt
+09/05/2024 19:06:56.761 [[32minfo[39m]: successfully found clients
+09/05/2024 19:06:56.761 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Do not know how to serialize a BigInt
+09/05/2024 19:06:56.970 [[32minfo[39m]: successfully found clients
+09/05/2024 19:06:56.971 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Do not know how to serialize a BigInt
+09/05/2024 19:06:57.151 [[32minfo[39m]: successfully found clients
+09/05/2024 19:06:57.153 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Do not know how to serialize a BigInt
+09/05/2024 19:06:57.335 [[32minfo[39m]: successfully found clients
+09/05/2024 19:06:57.335 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Do not know how to serialize a BigInt
+09/05/2024 19:06:58.700 [[32minfo[39m]: successfully found clients
+09/05/2024 19:06:58.701 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Do not know how to serialize a BigInt
+09/05/2024 19:07:53.418 [[32minfo[39m]: successfully found clients
+09/05/2024 19:07:53.421 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Do not know how to serialize a BigInt
+09/05/2024 19:11:07.832 [[32minfo[39m]: successfully found clients
+09/05/2024 19:11:07.834 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Do not know how to serialize a BigInt
+09/05/2024 19:11:08.619 [[32minfo[39m]: successfully found clients
+09/05/2024 19:11:08.619 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Do not know how to serialize a BigInt
+09/05/2024 19:11:09.322 [[32minfo[39m]: successfully found clients
+09/05/2024 19:11:09.323 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Do not know how to serialize a BigInt
+09/05/2024 19:11:09.871 [[32minfo[39m]: successfully found clients
+09/05/2024 19:11:09.871 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Do not know how to serialize a BigInt
+09/05/2024 19:11:10.699 [[32minfo[39m]: successfully found clients
+09/05/2024 19:11:10.700 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Do not know how to serialize a BigInt
+09/05/2024 19:11:13.689 [[32minfo[39m]: successfully found clients
+09/05/2024 19:11:14.675 [[32minfo[39m]: successfully found clients
+09/05/2024 19:11:15.899 [[32minfo[39m]: successfully found clients
+09/05/2024 19:11:16.522 [[32minfo[39m]: successfully found clients
+09/05/2024 19:11:16.876 [[32minfo[39m]: successfully found clients
+09/05/2024 19:11:17.167 [[32minfo[39m]: successfully found clients
+09/05/2024 19:11:17.413 [[32minfo[39m]: successfully found clients
+09/05/2024 19:12:22.985 [[32minfo[39m]: successfully found clients
+22/05/2024 03:10:50.032 [[32minfo[39m]: successfully found clients
+22/05/2024 03:55:21.383 [[31merror[39m]: Erro ao buscar clientes: Cannot read properties of undefined (reading 'findMany')
+22/05/2024 03:56:19.749 [[31merror[39m]: Erro ao buscar clientes: Cannot read properties of undefined (reading 'findMany')
+22/05/2024 03:56:32.066 [[31merror[39m]: Erro ao buscar clientes: Cannot read properties of undefined (reading 'findMany')
+22/05/2024 03:57:55.117 [[31merror[39m]: Erro ao buscar clientes: Cannot read properties of undefined (reading 'findMany')
+22/05/2024 03:59:54.843 [[31merror[39m]: Erro ao buscar clientes: Cannot read properties of undefined (reading 'findMany')
+22/05/2024 04:00:05.856 [[31merror[39m]: Erro ao buscar clientes: Do not know how to serialize a BigInt
+22/05/2024 04:03:14.166 [[31merror[39m]: Erro ao buscar clientes: 
+Invalid `prisma.clientes.findMany()` invocation in
+/workspaces/generic-backend/src/models/findManyClientes.js:7:42
+
+  4 
+  5 
+  6 const getAllClientes = async () => {
+→ 7   const clientes = await prisma.clientes.findMany(
+Inconsistent column data: Conversion failed: Value 18315384028 does not fit in an INT column, try migrating the 'consumoDownload' column type to BIGINT
+22/05/2024 04:03:47.228 [[31merror[39m]: Erro ao buscar clientes: 
+Invalid `prisma.clientes.findMany()` invocation in
+/workspaces/generic-backend/src/models/findManyClientes.js:7:42
+
+  4 
+  5 
+  6 const getAllClientes = async () => {
+→ 7   const clientes = await prisma.clientes.findMany(
+Inconsistent column data: Conversion failed: Value 18315384028 does not fit in an INT column, try migrating the 'consumoDownload' column type to BIGINT
+22/05/2024 04:54:55.478 [[31merror[39m]: Erro ao buscar clientes: 
+Invalid `prisma.clientes.findUnique()` invocation in
+/workspaces/generic-backend/src/models/findManyClientes.js:7:42
+
+  4 
+  5 
+  6 const getAllClientes = async () => {
+→ 7   const clientes = await prisma.clientes.findUnique({
+        where: {
+          ipConcentrador: "10.10.0.11",
+      ?   id?: String,
+      ?   AND?: ClientesWhereInput | ClientesWhereInput[],
+      ?   OR?: ClientesWhereInput[],
+      ?   NOT?: ClientesWhereInput | ClientesWhereInput[],
+      ?   statusCliente?: BoolNullableFilter | Boolean | Null,
+      ?   nomeConcentrador?: StringNullableFilter | String | Null,
+      ?   latitudeCliente?: StringNullableFilter | String | Null,
+      ?   longitudeCliente?: StringNullableFilter | String | Null,
+      ?   conexaoInicial?: DateTimeNullableFilter | DateTime | Null,
+      ?   conexaoFinal?: DateTimeNullableFilter | DateTime | Null,
+      ?   tempoConectado?: IntNullableFilter | Int | Null,
+      ?   consumoDownload?: BigIntNullableFilter | BigInt | Null,
+      ?   consumoUpload?: BigIntNullableFilter | BigInt | Null,
+      ?   motivoDesconexao?: StringNullableFilter | String | Null,
+      ?   popCliente?: StringNullableFilter | String | Null,
+      ?   nomeCliente?: StringNullableFilter | String | Null,
+      ?   enderecoCliente?: StringNullableFilter | String | Null,
+      ?   bairroCliente?: StringNullableFilter | String | Null,
+      ?   cidadeCliente?: StringNullableFilter | String | Null,
+      ?   planoContrato?: StringNullableFilter | String | Null,
+      ?   statusInternet?: IntNullableFilter | Int | Null,
+      ?   valorPlano?: FloatNullableFilter | Float | Null
+        }
+      })
+
+Argument `where` of type ClientesWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+22/05/2024 04:55:49.973 [[31merror[39m]: Erro ao buscar clientes: clientes.map is not a function
+22/05/2024 04:56:45.596 [[31merror[39m]: Erro ao buscar clientes: Do not know how to serialize a BigInt
+22/05/2024 04:57:39.010 [[31merror[39m]: Erro ao buscar clientes: cliente is not defined
+22/05/2024 17:04:40.927 [[31merror[39m]: Erro ao buscar clientes: Do not know how to serialize a BigInt
+22/05/2024 17:06:11.379 [[31merror[39m]: Erro ao buscar cliente: getCliente is not a function
+22/05/2024 18:27:43.747 [[31merror[39m]: Do not know how to serialize a BigInt
+22/05/2024 18:33:47.774 [[31merror[39m]: Cannot read properties of null (reading 'consumoDownload')
+22/05/2024 18:38:07.324 [[31merror[39m]: Do not know how to serialize a BigInt
+27/05/2024 00:35:04.324 [[31merror[39m]: 
+Invalid `prisma.clientes.findMany()` invocation in
+/workspaces/api-project/src/models/findManyClientes.js:56:32
+
+  53 
+  54 
+  55 const getAllCities = async () => {
+→ 56   return await prisma.clientes.findMany(
+The table `main.clientes` does not exist in the current database.

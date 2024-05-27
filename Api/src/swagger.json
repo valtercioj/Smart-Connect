@@ -1,0 +1,305 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "API Documentation",
+    "version": "1.0.0",
+    "description": "API documentation for my Express project"
+  },
+  "paths": {
+    "/clientes": {
+      "get": {
+        "summary": "Get all clients",
+        "description": "Get all clients with optional filters",
+        "parameters": [
+          {
+            "name": "statusCliente",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "cidadeCliente",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Cliente"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/cidades": {
+      "get": {
+        "summary": "Get all cities",
+        "description": "Get a list of all distinct cities where clients are located",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/clienteId/{id}": {
+      "get": {
+        "summary": "Get client by ID",
+        "description": "Get details of a client by their ID",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Cliente"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Client not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/clientes/financial-metrics": {
+      "get": {
+        "summary": "Get financial metrics",
+        "description": "Get financial metrics",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "receitaTotal": {
+                      "type": "string"
+                    },
+                    "receitaTotalPorCidade": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "cidade": {
+                            "type": "string"
+                          },
+                          "receitaTotal": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/clientes/top-three-plan-values": {
+      "get": {
+        "summary": "Get top three plan values",
+        "description": "Get the top three plan values",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Cliente"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/concentrador": {
+      "get": {
+        "summary": "Get all concentrators",
+        "description": "Get a list of all distinct concentrators",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/planos": {
+      "get": {
+        "summary": "Get all plans",
+        "description": "Get a list of all distinct plans",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/status": {
+      "get": {
+        "summary": "Get all statuses",
+        "description": "Get a list of all distinct statuses",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "integer"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Cliente": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "statusCliente": {
+            "type": "boolean"
+          },
+          "ipConcentrador": {
+            "type": "string"
+          },
+          "nomeConcentrador": {
+            "type": "string"
+          },
+          "latitudeCliente": {
+            "type": "string"
+          },
+          "longitudeCliente": {
+            "type": "string"
+          },
+          "conexaoInicial": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "conexaoFinal": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "tempoConectado": {
+            "type": "integer"
+          },
+          "consumoDownload": {
+            "type": "string"
+          },
+          "consumoUpload": {
+            "type": "string"
+          },
+          "motivoDesconexao": {
+            "type": "string"
+          },
+          "popCliente": {
+            "type": "string"
+          },
+          "nomeCliente": {
+            "type": "string"
+          },
+          "enderecoCliente": {
+            "type": "string"
+          },
+          "bairroCliente": {
+            "type": "string"
+          },
+          "cidadeCliente": {
+            "type": "string"
+          },
+          "planoContrato": {
+            "type": "string"
+          },
+          "statusInternet": {
+            "type": "integer"
+          },
+          "valorPlano": {
+            "type": "number"
+          }
+        }
+      }
+    }
+  }
+}
